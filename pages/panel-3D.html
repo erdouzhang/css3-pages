@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Angular - EXPLORE ANGULAR RESOURCES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        html,
+        body {
+            font-family: Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+            margin: 0;
+            color: #333;
+            font-size: 14px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            background-color: #fafafa;
+        }
+
+        /* 滚动条 */
+
+        body::-webkit-scrollbar,
+        .sidenav::-webkit-scrollbar {
+            height: 6px;
+            width: 6px
+        }
+
+        body::-webkit-scrollbar-track,
+        .sidenav::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3)
+        }
+
+        body::-webkit-scrollbar-thumb,
+        .sidenav::-webkit-scrollbar-thumb {
+            background-color: #6e6e6e;
+            outline: #333 solid 1px
+        }
+
+        /* 1rem = 14px（根字体法人大小） */
+
+        .sidenav-content {
+            min-height: 100vh;
+            padding: 14px 3rem 1rem;
+        }
+
+        .sidenav-container {
+            width: 100%;
+            height: 100vh
+        }
+
+        section>.showcase {
+            border-radius: 4px;
+            /* width: 100% */
+        }
+
+        section .shadow-1 {
+            transition: box-shadow .28s cubic-bezier(.4, 0, .2, 1);
+            box-shadow: 0 1px 4px 0 rgba(10, 16, 20, .37)
+        }
+
+        section .c-resource h4 {
+            margin: 0;
+            line-height: 24px
+        }
+
+        section .c-resource p {
+            margin: 0
+        }
+
+        section .l-flex--column {
+            display: flex;
+            flex-direction: column
+        }
+
+        section .subcategory-title {
+            padding: 16px 23px;
+            margin: 0;
+            background-color: #eceff1;
+            color: #373e41
+        }
+
+        section .resource-row-link {
+            color: #1a2326;
+            border: 1px solid transparent;
+            margin: 0;
+            padding: 16px 23px;
+            position: relative;
+            text-decoration: none;
+            transition: all .3s
+        }
+
+        section .resource-row-link:hover {
+            color: #1a2326;
+            text-decoration: none;
+            border-color: #2b85e7;
+            border-radius: 4px;
+            box-shadow: 0 8px 8px rgba(1, 67, 163, .24), 0 0 8px rgba(1, 67, 163, .12), 0 6px 18px rgba(43, 133, 231, .12);
+            -webkit-transform: translateY(-2px);
+            transform: translateY(-2px)
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 400;
+            margin: 24px 0;
+            clear: both
+        }
+
+        h4 {
+            font-size: 18px;
+            font-weight: 400;
+            margin: 8px 0;
+            clear: both
+        }
+
+        a {
+            line-height: 24px;
+            letter-spacing: .3px;
+            font-weight: 400
+        }
+        @media (max-width:600px) {
+            .sidenav-content {
+                min-height: 450px;
+                padding: 30px 1rem 1rem
+            }
+        }
+        .sidenav-transform {
+            opacity: 1;
+            transition: all 2000ms ease-in-out;
+            border-radius:5px
+        }
+    </style>
+</head>
+
+<body>
+    <section class="sidenav-content" id="resources" role="content">
+        <div class="sidenav-transform">
+            <section class="l-flex--column">
+                <div class="showcase">
+                    <header class="c-resource-header">
+                        <a class="h-anchor-offset" id="education"></a>
+                        <h2>Education</h2>
+                    </header>
+                    <div class="shadow-1">
+                        <a class="h-anchor-offset" id="books"></a>
+                        <h3 class="subcategory-title">Books</h3>
+                        <div class="c-resource">
+                            <a class="l-flex--column resource-row-link" href="javascript:void(0);" target="_blank">
+                                <div>
+                                    <h4>Angular Book</h4>
+                                    <p class="resource-description">A Practical Introduction to the new Web Development Platform Angular </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="c-resource">
+                            <a class="l-flex--column resource-row-link" href="javascript:void(0);" target="_blank">
+                                <div>
+                                    <h4>Angular-Buch (German)</h4>
+                                    <p class="resource-description">The first German book about Angular. It gives you a detailed practical overview of the
+                                        key concepts of the platform. In each chapter a sample application is built upon
+                                        with a new Angular topic. All sources are available on GitHub.</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="c-resource">
+                            <a class="l-flex--column resource-row-link" href="javascript:void(0);" target="_blank">
+                                <div>
+                                    <h4>Learning Angular</h4>
+                                    <p class="resource-description">Your quick, no-nonsense guide to building real-world apps with Angular</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="c-resource">
+                            <a class="l-flex--column resource-row-link" href="javascript:void(0);" target="_blank">
+                                <div>
+                                    <h4>O'Reilly Media</h4>
+                                    <p class="resource-description">More than 15 books from O'Reilly about Angular</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+				<div class="showcase">
+                    <header class="c-resource-header">
+                        <a class="h-anchor-offset" id="education"></a>
+                        <h2>Education</h2>
+                    </header>
+                    <div class="shadow-1">
+                        <a class="h-anchor-offset" id="books"></a>
+                        <h3 class="subcategory-title">Books</h3>
+                        <div class="c-resource">
+                            <a class="l-flex--column resource-row-link" href="javascript:void(0);" target="_blank">
+                                <div>
+                                    <h4>Angular Book</h4>
+                                    <p class="resource-description">A Practical Introduction to the new Web Development Platform Angular </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="c-resource">
+                            <a class="l-flex--column resource-row-link" href="javascript:void(0);" target="_blank">
+                                <div>
+                                    <h4>Angular-Buch (German)</h4>
+                                    <p class="resource-description">The first German book about Angular. It gives you a detailed practical overview of the
+                                        key concepts of the platform. In each chapter a sample application is built upon
+                                        with a new Angular topic. All sources are available on GitHub.</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="c-resource">
+                            <a class="l-flex--column resource-row-link" href="javascript:void(0);" target="_blank">
+                                <div>
+                                    <h4>Learning Angular</h4>
+                                    <p class="resource-description">Your quick, no-nonsense guide to building real-world apps with Angular</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="c-resource">
+                            <a class="l-flex--column resource-row-link" href="javascript:void(0);" target="_blank">
+                                <div>
+                                    <h4>O'Reilly Media</h4>
+                                    <p class="resource-description">More than 15 books from O'Reilly about Angular</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+</body>
+
+</html>
